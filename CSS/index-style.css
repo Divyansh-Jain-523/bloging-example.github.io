@@ -3,9 +3,10 @@
     padding: 0px;
 }
 
-body{
+#hero{
     background-color: antiquewhite;
 }
+
 section{
     padding: 40px;
     margin-bottom: 20px;
@@ -187,6 +188,72 @@ iframe{
     background-color: rgb(167, 214, 255);
 }
 
+#News-feed{
+    margin: auto;
+    margin-top: 25px;
+    background-color: black;
+    color: aliceblue;
+    padding: 50px;
+    max-width: 900px;
+}
+#News-feed > img{
+    width: 100%;
+}
+
+#News-feed > h1{
+    font-family: 'Raleway', sans-serif;
+    color: yellow;
+    font-size: 50px;
+    padding: 10px;
+}
+
+#links{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+#links > a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 10px;
+}
+
+#News-feed > ul{
+    margin-left: 25px;
+}
+
+#News-feed > input{
+    width: 90%;
+    height: 20px;
+    background-color: inherit;
+}
+
+#news{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#news > a{
+    cursor: pointer;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: gray;
+    margin: 10px;
+    width: 400px;
+}
+
+#news > a > img{
+    width: 380px;
+}
+
+.bottom-text{
+    bottom: 2000px;
+}
 footer{
     padding: 3px;
     display: block;
